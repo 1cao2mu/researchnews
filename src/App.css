@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+.space-carousel {
+  padding: 15px;
+  background: #DEF1E5;
+  overflow: hidden;
+}
+.bg{
+  background: url('./img/bg.gif') repeat-x 0 0 #e1eef9;
+}
+.linkc{
+  color: white;
+}
+.linkc:hover{
+  color: #4180A5;
+}
+
+.titlec{
+  width: calc(100% - 10px);
+  color: black;
+}
+.titlec:hover{
+  color: #53CFED;
+}
+
+.iconc{
+  opacity: 0.6;
+  background-color: white;
+}
+.iconc:hover{
+  opacity: 0.8;
+}
+.oneFlex {
+  display: flex;
+  display: -webkit-flex;
+  flex: 1;
+  -webkit-flex: 1;
+}
